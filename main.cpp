@@ -16,8 +16,6 @@ int main() {
     vector<int> problems;
     char problemSet = input[0];
 
-   
-
     removeSpaces(input);
     addToVector(input, holder);
     addProblems(holder, problems);
