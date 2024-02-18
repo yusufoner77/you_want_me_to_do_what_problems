@@ -19,7 +19,7 @@ void removeSpaces(string& input) {
 void addToVector(string input, vector<string>& holder) {
     string temp = "";
     for (int i = 1; i < input.size(); i++) {
-            if (input[i] != ',') {
+            if (input[i] != ',' && input[i] != '.' && input[i] != ';') {
                 temp += input[i];
             }
             else {
